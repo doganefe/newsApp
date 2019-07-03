@@ -1,0 +1,17 @@
+﻿@model HaberSite.Models.hava
+
+@{
+    ViewBag.Title = "Hava Durumu";
+}
+<p>
+    @Model.sehirAdi: <img src="@Model.icon" width="25" /> @Model.derece
+</p>
+
+<p>
+    Hava bugün @Model.sehirAdi'da @Model.durum
+</p>
+
+<form method="post">
+    <input type="text" name="SehirAdi" />
+    <input type="submit" />
+</form>
