@@ -181,7 +181,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\hava.cs" />
-    <Compile Include="Models\xmlHaber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValuesController1.cs" />
   </ItemGroup>
